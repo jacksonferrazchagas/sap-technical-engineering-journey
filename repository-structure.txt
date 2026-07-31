@@ -1,0 +1,119 @@
+﻿Folder PATH listing for volume OS
+Volume serial number is 0000007B 9E15:2902
+C:.
+ª   .gitignore
+ª   CHANGELOG.md
+ª   CONTRIBUTING.md
+ª   default_key.json
+ª   LICENSE
+ª   README.md
+ª   repository-structure.txt
+ª   ROADMAP.md
+ª   
++---career
+ª   ª   README.md
+ª   ª   
+ª   +---certifications
+ª   +---interview
+ª   +---linkedin
+ª   +---resume
++---learning
+ª   ª   README.md
+ª   ª   
+ª   +---phase-00-environment
+ª   +---phase-01-sap-foundation
+ª   +---phase-02-abap-classic
+ª   +---phase-03-ddic
+ª   +---phase-04-dialog-programming
+ª   +---phase-05-oo-abap
+ª   +---phase-06-enhancements
+ª   +---phase-07-forms
+ª   +---phase-08-integration
+ª   +---phase-09-bw
+ª   +---phase-10-hana
+ª   +---phase-11-s4hana
+ª   +---phase-12-btp
+ª   +---phase-13-datasphere
++---portfolio
+ª   ª   README.md
+ª   ª   
+ª   +---demo-videos
+ª   +---diagrams
+ª   +---presentations
+ª   +---screenshots
++---project
+ª   +---hamilton-steel-manufacturing
+ª       ª   README.md
+ª       ª   
+ª       +---architecture
+ª       ª   ª   solution-overview.md
+ª       ª   ª   
+ª       ª   +---diagrams
+ª       +---backlog
+ª       ª       product-backlog.md
+ª       ª       
+ª       +---business
+ª       ª       business-case.md
+ª       ª       kpis.md
+ª       ª       requirements.md
+ª       ª       
+ª       +---sprints
+ª       ª   +---sprint-01
+ª       ª   ª   ª   README.md
+ª       ª   ª   ª   
+ª       ª   ª   +---screenshots
+ª       ª   +---sprint-02
+ª       ª   ª       README.md
+ª       ª   ª       
+ª       ª   +---sprint-03
+ª       ª           README.md
+ª       ª           
+ª       +---test-data
++---scripts
++---src
+    +---abap
+    ª   ª   README.md
+    ª   ª   
+    ª   +---behavior
+    ª   +---cds
+    ª   +---classes
+    ª   ª       zcl_hsm_hello.abap
+    ª   ª       
+    ª   +---interfaces
+    ª   +---tables
+    ª   +---unit-tests
+    +---ai
+    ª   ª   README.md
+    ª   ª   
+    ª   +---agents
+    ª   +---automation
+    ª   +---prompts
+    +---analytics
+    ª   ª   README.md
+    ª   ª   
+    ª   +---dashboards
+    ª   +---finance
+    ª   +---kpis
+    ª   +---sac
+    +---datasphere
+    ª   ª   README.md
+    ª   ª   
+    ª   +---dataflows
+    ª   +---models
+    ª   +---replication
+    ª   +---spaces
+    ª   +---views
+    +---hana
+    ª   ª   README.md
+    ª   ª   
+    ª   +---performance
+    ª   +---procedures
+    ª   +---sql
+    ª   +---sqlscript
+    +---integration
+        ª   README.md
+        ª   
+        +---apis
+        +---event-mesh
+        +---integration-suite
+        +---odata
