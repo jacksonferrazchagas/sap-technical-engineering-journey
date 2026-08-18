@@ -1,0 +1,32 @@
+﻿@EndUserText.label : 'Hamilton Steel Production Records'
+@AbapCatalog.enhancement.category : #NOT_EXTENSIBLE
+@AbapCatalog.tableCategory : #TRANSPARENT
+@AbapCatalog.deliveryClass : #A
+@AbapCatalog.dataMaintenance : #RESTRICTED
+define table zhsm_production {
+
+  key client        : abap.clnt not null;
+  key production_id : abap.char(10) not null;
+
+  material_id       : abap.char(18) not null;
+
+  @Semantics.quantity.unitOfMeasure : 'zhsm_production.unit'
+  quantity          : abap.quan(13,3) not null;
+
+  unit              : abap.unit(3) not null;
+
+  production_date   : abap.dats not null;
+  shift             : abap.char(10) not null;
+  work_center       : abap.char(12) not null;
+  cost_center       : abap.char(10) not null;
+  status            : abap.char(12) not null;
+
+  @Semantics.amount.currencyCode : 'zhsm_production.currency'
+  material_cost     : abap.curr(15,2) not null;
+
+  @Semantics.amount.currencyCode : 'zhsm_production.currency'
+  labor_cost        : abap.curr(15,2) not null;
+
+  currency          : abap.cuky not null;
+
+}
